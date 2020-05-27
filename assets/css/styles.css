@@ -576,7 +576,7 @@ table {
 
 #main-content .section-wrapper {
     display:block;
-    position: relative;        
+    position: relative;      
 }
 
 #main-content .section-wrapper.modified-height {
@@ -691,6 +691,7 @@ h6 {
 
 #main-content .feature-paragraph {
     font-size:1.1em;
+    text-align: left;
 }
 
     @media (min-width: 768px) {
@@ -848,7 +849,8 @@ h6 {
 
         #main-content .grid .text-content {
             padding-left:35%;
-        }         
+        }      
+    
     }
     @media (min-width: 1200px) {
 
@@ -992,6 +994,7 @@ h6 {
     margin:1em 0;
     padding:0;
     list-style: none;
+    padding-top: 15px;
 }
 
 #main-content .feature-columns .feature-col .thumbnail {
